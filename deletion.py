@@ -36,6 +36,7 @@ class LinkedList:
         while itr:
             if itr.data > 25:
                 self.remove_at(count)
+                count-=1
             count+=1
             itr = itr.next
             
